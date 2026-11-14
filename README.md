@@ -50,9 +50,9 @@ AIBM_Segmentation_SwinUNETR/
 ├── data/                     # BTCV dataset
 │   ├── README.md
 │   ├── dataset_0.json        # MONAI decathlon-style train/val/test split (tracked)
-│   ├── imagesTr/              # training CT volumes (img0001.nii.gz ...)
-│   ├── imagesTs/              # test CT volumes (img0061.nii.gz ...)
-│   └── labelsTr/              # training organ labels (label0001.nii.gz ...)
+│   ├── imagesTr/              # training CT volumes
+│   ├── imagesTs/              # test CT volumes
+│   └── labelsTr/              # training organ labels
 │
 └── weights/                  # pretrained Swin UNETR checkpoints
     ├── README.md
@@ -64,22 +64,13 @@ AIBM_Segmentation_SwinUNETR/
 ## Setup
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/NokkTsang/AIBM_Segmentation_SwinUNETR.git
-   cd AIBM_Segmentation_SwinUNETR
-   ```
 2. **Create an environment and install dependencies**
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate        # Windows
-   pip install -r requirements.txt
-   ```
 3. **Get the data and weights** (both are git-ignored):
    - Follow [data/README.md](data/README.md) to download/place the BTCV dataset under `data/`.
    - Follow [weights/README.md](weights/README.md) to download the pretrained checkpoints under `weights/`.
 4. **Run inference** (Task 2) — see [code/task2/README.md](code/task2/README.md) for full commands.
 
-## Current results (Task 2)
+## Task 2 results
 
 Overall mean Dice on the 6 BTCV validation cases (`infer_overlap=0.7`):
 
