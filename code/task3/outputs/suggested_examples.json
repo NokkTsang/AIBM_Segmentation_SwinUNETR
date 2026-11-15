@@ -1,0 +1,21 @@
+{
+  "highest_dice_case": {
+    "model": "base",
+    "case": "img0039",
+    "mean_dice": 0.8436570051091009,
+    "mean_hausdorff_mm": 294.606575820768,
+    "mean_hd95_mm": 6.860725303590282,
+    "valid_hd_organs": 13,
+    "undefined_hd_organs": 0
+  },
+  "lowest_dice_case": {
+    "model": "tiny",
+    "case": "img0038",
+    "mean_dice": 0.6120835314886195,
+    "mean_hausdorff_mm": 263.0757593240715,
+    "mean_hd95_mm": 119.75770305041912,
+    "valid_hd_organs": 12,
+    "undefined_hd_organs": 1
+  },
+  "note": "Case selection is by mean Dice across all 13 organs, not by Hausdorff distance. Report both metrics. Undefined Hausdorff values are excluded from means and explicitly counted."
+}
