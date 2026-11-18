@@ -15,7 +15,7 @@ qualitatively, following the project task sheet (`Tasks 1–5` + bonus OOD task)
 | Baichuan Zeng | 03832071 |
 | _TBD_ | _TBD_ |
 | _TBD_ | _TBD_ |
-| _TBD_ | _TBD_ |
+| Dillan Imans | 03830278 |
 
 ## Repository structure
 
