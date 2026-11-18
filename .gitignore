@@ -20,6 +20,7 @@ Thumbs.db
 data/imagesTr/
 data/imagesTs/
 data/labelsTr/
+data/totalseg/
 data/*.nii
 data/*.nii.gz
 
@@ -32,3 +33,6 @@ code/**/pretrained_models/
 # --- Logs / misc generated files ---
 *.log
 *.tmp
+# --- Bonus task: prepared TotalSegmentator volumes (large, regenerate with code/bonus/prepare_totalseg.py) ---
+data/totalseg/images/
+data/totalseg/labels/
